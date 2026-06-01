@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <section className="px-6 md:px-12 lg:px-50 py-16">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12">
 
         {/* Text Content */}
         <div className="w-full lg:w-1/2">
