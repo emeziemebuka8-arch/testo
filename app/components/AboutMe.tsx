@@ -23,19 +23,19 @@ const services = [
     title: "Cyber security",
     desc:
       "Safeguard your data, people, and reputation with a proactive risk-management strategy to effectively combat modern cyber security threats.",
-    icons: "/Margin2.png",
+    icons: "/Margin.png",
   },
   {
     title: "Test automation",
     desc:
       "Release updates faster and reduce time, cost and resource by implementing an automated solution based on a flexible core framework.",
-    icons: "/Margin2.png",
+    icons: "/Margin.png",
   },
   {
     title: "Strategy and consultancy",
     desc:
       "Gain insight into your testing strategy, QA structure, test processes, and tools to eliminate bottlenecks and streamline processes.",
-    icons: "/Margin4.png",
+    icons: "/Margin.png",
   },
 ];
 
