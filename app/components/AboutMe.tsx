@@ -29,7 +29,7 @@ const services = [
     title: "Test automation",
     desc:
       "Release updates faster and reduce time, cost and resource by implementing an automated solution based on a flexible core framework.",
-    icons: "/Margin3.png",
+    icons: "/Margin2.png",
   },
   {
     title: "Strategy and consultancy",
