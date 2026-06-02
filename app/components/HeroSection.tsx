@@ -1,11 +1,11 @@
 export default function HeroSection() {
   return (
-    <section className="px-6 md:px-12 lg:px-50 py-16">
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-12">
+    <section className="px-6 md:px-12 lg:px-50 py-16 flex flex-col justify-center items-center">
+      <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-30">
 
         {/* Text Content */}
         <div className="w-full lg:w-1/2">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight">
+          <h1 className="text-4xl whitespace-nowrap sm:text-5xl lg:text-6xl font-semibold leading-tight">
             People-powered <br />
             software testing
           </h1>

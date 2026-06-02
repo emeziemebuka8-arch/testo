@@ -3,10 +3,10 @@ import React from "react";
 
 const Memo = () => {
   return (
-    <section className="bg-[#f5f7f4] py-16 lg:py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section className="bg-[#f5f7f4] py-16 lg:py-24 px-6 md:px-12 lg:px-20 overflow-hidden flex flex-col justify-center items-center ">
 
       {/* Top Section */}
-      <div className="flex flex-col lg:flex-row lg:items-start gap-10 lg:gap-20">
+      <div className="flex flex-col lg:flex-row lg:items-start gap-12 lg:gap-20 max-w-7xl">
 
         {/* Left */}
         <div className="w-full lg:w-1/2">

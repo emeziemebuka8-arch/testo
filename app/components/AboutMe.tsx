@@ -41,9 +41,9 @@ const services = [
 
 const AboutMe = () => {
   return (
-    <section className="px-6 md:px-12 lg:px-40 py-16">
+    <section className="px-6 md:px-12 lg:px-40 py-16 flex flex-col justify-center items-center">
 
-      <div className="flex flex-col lg:flex-row gap-16 lg:gap-44">
+      <div className="flex flex-col lg:flex-row gap-16 lg:gap-44 items-start max-w-7xl">
 
         {/* Left Section */}
         <div className="w-full lg:w-1/3">

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="bg-[#400093] mt-20 py-16 lg:py-24 px-6 md:px-12 lg:px-20 overflow-hidden">
+    <section className="bg-[#400093] mt-20 py-16 lg:py-24 px-6 md:px-12 lg:px-20 overflow-hidden flex flex-col justify-center items-center">
 
       {/* Top Content */}
       <div className="flex flex-col items-center text-center">
@@ -45,7 +45,7 @@ const About = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="mt-20 flex flex-col lg:flex-row items-center gap-16">
+      <div className="mt-20 flex flex-col lg:flex-row items-center max-w-7xl">
 
         {/* Left Image */}
         <div className="relative w-full lg:w-1/2 flex justify-center">
