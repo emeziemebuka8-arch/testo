@@ -26,7 +26,7 @@ export default function Navbar() {
           <a href="#" className="hover:text-gray-400">Blog</a>
         </nav>
         <div>
-          <button onClick={onBook} className="bg-[#FFBB80] hover:bg-blue-700 text-black text-sm font-semibold py-2 px-4 rounded-full">Book Free Consultation</button>
+          <button onClick={onBook} className="bg-[#FFBB80] hover:bg-blue-700 text-black text-sm font-semibold py-2 px-4 rounded-full">Book Free Consultationn</button>
         </div>
       </div>
     </header>
