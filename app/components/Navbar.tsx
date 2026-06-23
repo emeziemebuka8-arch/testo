@@ -1,5 +1,18 @@
 
+"use client"
+
+import React from "react";
+
 export default function Navbar() {
+  const onBook = () => {
+    const el = document.getElementById("contact-section");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      // focus for accessibility
+      (el as HTMLElement).focus();
+    }
+  };
+
   return (
     <header className="bg-transparent">
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
@@ -13,7 +26,7 @@ export default function Navbar() {
           <a href="#" className="hover:text-gray-400">Blog</a>
         </nav>
         <div>
-          <button className="bg-[#FFBB80] hover:bg-blue-700 text-black text-sm font-semibold py-2 px-4 rounded-full">Get in touch</button>
+          <button onClick={onBook} className="bg-[#FFBB80] hover:bg-blue-700 text-black text-sm font-semibold py-2 px-4 rounded-full">Book Free Consultation</button>
         </div>
       </div>
     </header>

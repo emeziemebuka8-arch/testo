@@ -10,6 +10,7 @@ import WhatWeDo from "./components/WhatWeDo";
 import Carosel from "./components/Carosel";
 import Update from "./components/Update";
 import Partnership from "./components/Partnership";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Carosel />
       <Update />
       <Partnership />
+      <ContactSection />
     </div>
     </>
   );
